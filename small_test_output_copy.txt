@@ -1,0 +1,135 @@
+Starting small_test()
+Finished running list::list() to create a null list (0 pointer) in memory location 0x7ffd47bbdc90
+After creation of   l, expecting 0 cons_cells, there are 0
+Copied null list (0 pointer) from 0x7ffd47bbdc90 to 0x95ac28
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac20 with value 5 and rest as a null pointer (0)
+Finished running list::list(int h, const list &r) to create a new list in memory location 0x7ffd47bbdca0 with head cons_cell in location 0x95ac20 (which holds the value 5 and rest as a null pointer (0))
+After creation of   m, expecting 1 cons_cells, there are 1
+Copied null list (0 pointer) from 0x95ac28 to 0x95ac48
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac40 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x7ffd47bbdca0 to 0x7ffd47bbdcb0, head = 5
+After creation of   n, expecting 2 cons_cells, there are 2
+Copied null list (0 pointer) from 0x95ac28 to 0x95ac88
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac80 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x7ffd47bbdca0 to 0x95ac68, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac60 with value 500 and rest pointing to cons_cell at location 0x95ac80
+Finished running list::list(int h, const list &r) to create a new list in memory location 0x7ffd47bbdcd0 with head cons_cell in location 0x95ac60 (which holds the value 500 and rest pointing to cons_cell at location 0x95ac80)
+Copied null list (0 pointer) from 0x95ac88 to 0x95ace8
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ace0 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x95ac68 to 0x95acc8, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95acc0 with value 500 and rest pointing to cons_cell at location 0x95ace0
+Finished running list::list(const list &init) to copy list from 0x7ffd47bbdcd0 to 0x95aca8, head = 500
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95aca0 with value 50 and rest pointing to cons_cell at location 0x95acc0
+Finished running list::list(int h, const list &r) to create a new list in memory location 0x7ffd47bbdcc0 with head cons_cell in location 0x95aca0 (which holds the value 50 and rest pointing to cons_cell at location 0x95acc0)
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac60
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac80
+Finished running list::~list() on list at 0x95ac88
+Finished running list::~list() on list at 0x95ac68
+Finished running list::~list() on list at 0x7ffd47bbdcd0
+After creation of   o, expecting 3 cons_cells, there are 5
+[ About to assign from 0x7ffd47bbdcc0 to 0x7ffd47bbdcb0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac40
+Finished running list::~list() on list at 0x95ac48
+Copied null list (0 pointer) from 0x95ace8 to 0x95ac88
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac80 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x95acc8 to 0x95ac68, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac60 with value 500 and rest pointing to cons_cell at location 0x95ac80
+Finished running list::list(const list &init) to copy list from 0x95aca8 to 0x95ac48, head = 500
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ac40 with value 50 and rest pointing to cons_cell at location 0x95ac60
+Just assigned list from 0x7ffd47bbdcc0 to 0x7ffd47bbdcb0 (except for building the return value...) ]
+After assignment to n, expecting 4 cons_cells, there are 7
+Copied null list (0 pointer) from 0x95ac88 to 0x95ad48
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad40 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x95ac68 to 0x95ad28, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad20 with value 500 and rest pointing to cons_cell at location 0x95ad40
+Finished running list::list(const list &init) to copy list from 0x95ac48 to 0x95ad08, head = 500
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad00 with value 50 and rest pointing to cons_cell at location 0x95ad20
+Finished running list::list(const list &init) to copy list from 0x7ffd47bbdcb0 to 0x7ffd47bbdcf0, head = 50
+Hello --- list is not empty.
+Copied null list (0 pointer) from 0x95ad48 to 0x95adc8
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95adc0 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x95ad28 to 0x95ada8, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ada0 with value 500 and rest pointing to cons_cell at location 0x95adc0
+Finished running list::list(const list &init) to copy list from 0x95ad08 to 0x95ad88, head = 500
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad80 with value 50 and rest pointing to cons_cell at location 0x95ada0
+Finished running list::list(const list &init) to copy list from 0x7ffd47bbdcf0 to 0x95ad68, head = 50
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad60 with value 15 and rest pointing to cons_cell at location 0x95ad80
+Finished running list::list(int h, const list &r) to create a new list in memory location 0x7ffd47bbdc60 with head cons_cell in location 0x95ad60 (which holds the value 15 and rest pointing to cons_cell at location 0x95ad80)
+[ About to assign from 0x7ffd47bbdc60 to 0x7ffd47bbdcf0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad00
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad20
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad40
+Finished running list::~list() on list at 0x95ad48
+Finished running list::~list() on list at 0x95ad28
+Finished running list::~list() on list at 0x95ad08
+Copied null list (0 pointer) from 0x95adc8 to 0x95ade8
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ade0 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x95ada8 to 0x95ad48, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad40 with value 500 and rest pointing to cons_cell at location 0x95ade0
+Finished running list::list(const list &init) to copy list from 0x95ad88 to 0x95ad28, head = 500
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad20 with value 50 and rest pointing to cons_cell at location 0x95ad40
+Finished running list::list(const list &init) to copy list from 0x95ad68 to 0x95ad08, head = 50
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad00 with value 15 and rest pointing to cons_cell at location 0x95ad20
+Just assigned list from 0x7ffd47bbdc60 to 0x7ffd47bbdcf0 (except for building the return value...) ]
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad60
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad80
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ada0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95adc0
+Finished running list::~list() on list at 0x95adc8
+Finished running list::~list() on list at 0x95ada8
+Finished running list::~list() on list at 0x95ad88
+Finished running list::~list() on list at 0x95ad68
+Finished running list::~list() on list at 0x7ffd47bbdc60
+Copied null list (0 pointer) from 0x95ade8 to 0x95ae08
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ae00 with value 5 and rest as a null pointer (0)
+Finished running list::list(const list &init) to copy list from 0x95ad48 to 0x95adc8, head = 5
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95adc0 with value 500 and rest pointing to cons_cell at location 0x95ae00
+Finished running list::list(const list &init) to copy list from 0x95ad28 to 0x95ada8, head = 500
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ada0 with value 50 and rest pointing to cons_cell at location 0x95adc0
+Finished running list::list(const list &init) to copy list from 0x95ad08 to 0x95ad88, head = 50
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad80 with value 15 and rest pointing to cons_cell at location 0x95ada0
+Finished running list::list(const list &init) to copy list from 0x7ffd47bbdcf0 to 0x95ad68, head = 15
+Finished running list::cons_cell::cons_cell to create cons_cell at memory location 0x95ad60 with value 50 and rest pointing to cons_cell at location 0x95ad80
+Finished running list::list(int h, const list &r) to create a new list in memory location 0x7ffd47bbdce0 with head cons_cell in location 0x95ad60 (which holds the value 50 and rest pointing to cons_cell at location 0x95ad80)
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad00
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad20
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad40
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ade0
+Finished running list::~list() on list at 0x95ade8
+Finished running list::~list() on list at 0x95ad48
+Finished running list::~list() on list at 0x95ad28
+Finished running list::~list() on list at 0x95ad08
+Finished running list::~list() on list at 0x7ffd47bbdcf0
+After creation of   p, expecting 5 cons_cells, there are 12
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad60
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ad80
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ada0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95adc0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ae00
+Finished running list::~list() on list at 0x95ae08
+Finished running list::~list() on list at 0x95adc8
+Finished running list::~list() on list at 0x95ada8
+Finished running list::~list() on list at 0x95ad88
+Finished running list::~list() on list at 0x95ad68
+Finished running list::~list() on list at 0x7ffd47bbdce0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95aca0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95acc0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ace0
+Finished running list::~list() on list at 0x95ace8
+Finished running list::~list() on list at 0x95acc8
+Finished running list::~list() on list at 0x95aca8
+Finished running list::~list() on list at 0x7ffd47bbdcc0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac40
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac60
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac80
+Finished running list::~list() on list at 0x95ac88
+Finished running list::~list() on list at 0x95ac68
+Finished running list::~list() on list at 0x95ac48
+Finished running list::~list() on list at 0x7ffd47bbdcb0
+Finished running list::cons_cell::~cons_cell to cons_cell at memory location 0x95ac20
+Finished running list::~list() on list at 0x95ac28
+Finished running list::~list() on list at 0x7ffd47bbdca0
+Finished running list::~list() on list at 0x7ffd47bbdc90
+Done with small_test(), hoping for 0 cons_cells, there are  0
+Done with small_test(), expecting number of cons_cell allocations was __FILL_THIS_IN___; the actual number is 26
+
