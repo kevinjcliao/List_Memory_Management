@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 2.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="List-Memory-Mangement.cdt.managedbuild.target.macosx.exe.1076552881" name="Executable (MacOS X)" projectType="cdt.managedbuild.target.macosx.exe">
+<configuration id="cdt.managedbuild.config.gnu.macosx.exe.debug.389484122" name="Debug" parent="cdt.managedbuild.config.gnu.macosx.exe.debug" artifactName="List-Memory-Mangement" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+<toolChain superClass="cdt.managedbuild.toolchain.gnu.macosx.exe.debug" id="cdt.managedbuild.toolchain.gnu.macosx.exe.debug.859398155" name="GCC Tool Chain">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug" id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.1227141458" name="GCC C Compiler"/>
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug" id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.411223273" name="GCC C++ Compiler">
+<option superClass="gnu.cpp.compiler.option.include.paths" id="gnu.cpp.compiler.option.include.paths.314326524" valueType="includePath">
+<listOptionValue value="/Network/Servers/moe.cs.haverford.edu/Volumes/Users/courses/include" builtIn="false"/>
+<listOptionValue value="/Volumes/UFS/Users/davew/courses/include" builtIn="false"/>
+</option>
+<option superClass="gnu.cpp.compiler.option.warnings.pedantic" id="gnu.cpp.compiler.option.warnings.pedantic.476102875" value="true" valueType="boolean"/>
+</tool>
+<tool superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug" id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.557416417" name="MacOS X C Linker"/>
+<tool superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1528682472" name="MacOS X C++ Linker">
+<option superClass="macosx.cpp.link.option.libs" id="macosx.cpp.link.option.libs.752313975" valueType="libs">
+<listOptionValue value="courses" builtIn="false"/>
+</option>
+<option superClass="macosx.cpp.link.option.paths" id="macosx.cpp.link.option.paths.770886861" valueType="stringList">
+<listOptionValue value="/Network/Servers/moe.cs.haverford.edu/Volumes/Users/courses/lib" builtIn="false"/>
+<listOptionValue value="/Volumes/UFS/Users/davew/courses/lib" builtIn="false"/>
+</option>
+</tool>
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug" id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug.1538080520" name="GCC Assembler"/>
+</toolChain>
+</configuration>
+<configuration id="cdt.managedbuild.config.macosx.exe.release.1025722499" name="Release" parent="cdt.managedbuild.config.macosx.exe.release" artifactName="List-Memory-Mangement" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" cleanCommand="rm -rf">
+<toolChain superClass="cdt.managedbuild.toolchain.gnu.macosx.exe.release" id="cdt.managedbuild.toolchain.gnu.macosx.exe.release.187334294" name="GCC Tool Chain">
+<tool superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.release" id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.release.637959806" name="GCC C Compiler"/>
+<tool superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.release" id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.release.1995293436" name="GCC C++ Compiler"/>
+<tool superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.release" id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.release.1380894587" name="MacOS X C Linker"/>
+<tool superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.release" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.release.1797996753" name="MacOS X C++ Linker"/>
+<tool superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.release" id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.release.2008084424" name="GCC Assembler"/>
+</toolChain>
+</configuration>
+</project>
+</ManagedProjectBuildInfo>
